@@ -1,0 +1,28 @@
+<h2 class="search_info"><%= pluralize(@actions.length, 'action') %> found for '<%= h @keywords %>'</h2>
+<p class="sharing_options">
+  <%= link_to "subscribe to this search as an RSS feed", @search.rss_uri.to_s, {:class => 'feed'}  %>
+  <br>
+  <%= link_to "search permalink", params.merge({:controller => 'permsearch', :action => '', :permsearch => 'true'}), {:class => 'permlink'} %>
+  <% if @actions.length == @search.query[:limit] %>
+    <br>
+    <%= link_to "next results", "javascript:next_page()" %>
+  <% end %>
+</p>
+
+<% @actions.each do |action| %>
+  <div class="post">
+    <h2 class="title"><a href="<%= action.url %>"><%= action.title %></a></h2>
+    <div class="entry">
+      <p>
+      <%= truncate((CGI::unescape action.description), :length => 800, :omission => "... <a class=\"nobr\" href=\"#{action.url}\">read more</a>") %>
+      </p>
+    </div>
+    <p class="meta">published <%= action.friendly_creation_date %> by <%= link_to action.site.name, action.site.url, :class => 'external'  %>
+    under <span class="italic"><%= action.action_type.name %></span> &nbsp;&bull;&nbsp; 
+    viewed <%= pluralize(action.hit_count, 'time') %> &nbsp;&bull;&nbsp; 
+    <%= pluralize(action.referrer_count, 'referrer') %>
+    <% display_if_present(action.location) do %> &nbsp;&bull;&nbsp; in <%= action.location %><% end %>
+    </p>
+  </div>
+<% end %>
+

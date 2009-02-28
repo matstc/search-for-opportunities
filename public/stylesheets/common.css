@@ -1,0 +1,32 @@
+ul li label {position:relative; top:-2px; margin-left:6px;}
+#loading_animation {display:none; text-align:center; width:100%;}
+
+.no_margin_left {margin-left:0px !important;}
+.float_left {float:left;}
+.nobr {white-space:nowrap;}
+.criterion_box {margin:5px;}
+.italic {font-style:italic;}
+.search_input {width:7em;}
+
+a {padding-top:0.5em;}
+a.feed, a.permlink {padding-left:20px; background-repeat:no-repeat; background-position:left bottom;}
+a.permlink {background-image: url(/images/link.png);}
+a.feed {background-image: url(/images/feed.png);}
+a.external {padding-right:14px; background-image: url(/images/external_link.png); background-repeat:no-repeat; background-position:right center;}
+.criterion_box { border-bottom: 1px dashed #590000; padding:1em 0 1em 0;}
+.criterion_box h2 {margin-bottom:0.4em;}
+.no_border_bottom {border-bottom-style:none;}
+.search_box_and_button {margin-bottom:1em;}
+.search_results_wrapper {line-height:150%;}
+h2 {margin-bottom:0.3em !important;}
+.entry img {margin:0.5em;}
+
+.cleared {zoom:1;}
+.cleared:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+

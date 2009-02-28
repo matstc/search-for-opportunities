@@ -1,0 +1,8 @@
+
+Requires the following
+
+    gem install json
+    gem install httparty
+
+
+To use in test mode, uncomment the require for general_helper in application_helper.rb

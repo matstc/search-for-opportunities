@@ -1,0 +1,772 @@
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-15 10:13:23) [GET]
+  Parameters: {"keyword"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-15 10:13:57) [GET]
+  Parameters: {"keyword"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-15 11:38:36) [GET]
+  Parameters: {"id"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search/kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-15 19:04:29) [GET]
+  Parameters: {"id"=>"kiva"}
+Rendering search/search
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search/kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:50:12) [GET]
+  Parameters: {"id"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:50:30) [GET]
+  Parameters: {"keyword"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:51:14) [GET]
+  Parameters: {"keyword"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:51:31) [GET]
+  Parameters: {"keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:54:12) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_types=1%2C2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:55:18) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:58:15) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 19:58:33) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:00:03) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:00:51) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:01:09) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_types=1%2C2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:01:55) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_types=1%2C2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:32:51) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_types=1%2C2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:41:07) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_types=1%2C2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:44:18) [GET]
+  Parameters: {"created_days"=>"4", "action_types"=>"1,2", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:44:56) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:45:22) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 20:46:11) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-16 22:06:44) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:35:50) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:40:35) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:44:45) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:45:10) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:45:47) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:47:09) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:47:44) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:48:04) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:48:22) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:49:33) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:50:11) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:51:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:51:56) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:56:33) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:57:10) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:57:49) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 19:58:57) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 20:00:03) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 20:03:53) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 20:06:44) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-17 20:23:45) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 10:44:12) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 10:44:28) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:46:21) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:47:43) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:48:44) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:49:08) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:49:36) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:50:07) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 11:50:23) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:04:56) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:06:00) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:06:14) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:09:07) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:09:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:10:00) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:10:43) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:11:06) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:11:21) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:13:55) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:14:08) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:14:42) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:15:57) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:17:27) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:17:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:18:19) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:20:36) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:20:49) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:46:22) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:46:45) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:46:58) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:47:25) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:47:54) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:49:37) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:50:28) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 12:51:32) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 13:03:19) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 14:57:42) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 14:58:19) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:01:23) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:01:44) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:02:20) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:02:38) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:02:50) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:04:33) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:04:53) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:05:10) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:06:29) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:06:44) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:07:03) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:07:15) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:07:47) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:08:01) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:09:13) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:09:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:11:36) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:11:49) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:12:17) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:14:50) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:15:03) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:16:18) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:16:43) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:17:55) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:19:28) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:19:57) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:21:50) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:22:34) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:26:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:27:30) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:27:57) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 15:42:32) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:16:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:17:09) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:18:42) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:21:17) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:22:02) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:22:33) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:24:06) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:24:19) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:24:54) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:25:27) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:27:31) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:27:50) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:28:10) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:41:04) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:41:45) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:42:40) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 16:43:21) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 17:00:24) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-21 20:57:26) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-22 11:23:12) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]
+
+
+Processing SearchController#search (for 0.0.0.0 at 2009-02-23 22:24:37) [GET]
+  Parameters: {"action_type_1"=>"1", "action_type_2"=>"2", "created_days"=>"4", "keywords"=>"kiva"}
+Rendering search/search
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/search/search?action_type_1=1&action_type_2=2&created_days=4&keywords=kiva]

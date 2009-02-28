@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+Name       : Pressurized
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20081103
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>Search for opportunities - take social action</title>
+  </head>
+  <body>
+    <%= javascript_include_tag 'prototype' %>
+    <%= javascript_include_tag 'effects' %>
+    <!--
+    <%= stylesheet_link_tag 'reset.css'  %>
+    <%= stylesheet_link_tag 'reset-fonts.css'  %>
+    <%= stylesheet_link_tag 'reset-fonts-grids.css'  %>
+    -->
+    <%= stylesheet_link_tag 'common.css'  %>
+    <%= stylesheet_link_tag 'pressurized.css'  %>
+
+    <script type="text/javascript">
+      function handle_results(request){
+        $('search_results').innerHTML = request.responseText;
+        Effect.SlideDown('search_results_slider');
+      }
+
+function handle_failure(){
+  $('search_results').innerHTML = 'We are sorry but the search failed. Please try again.';
+}
+
+function toggle_search_loading(visible){
+  if (visible){
+    $('search_results').innerHTML = '';
+    var loading = $('loading_animation').cloneNode(true);
+    loading.style.display = 'block';
+    $('search_results').appendChild(loading);
+  }
+}
+
+var current_page = 1;
+function next_page(){
+  $('pageNumber').value = ++current_page;
+  submit_search();
+  $('pageNumber').value = 1; //in case user starts a new search
+}
+
+function submit_search(){
+  document.getElementsByTagName('form')[0].onsubmit();
+}
+
+<% if !params[:permsearch].blank? %>
+  Event.observe(window, 'load', submit_search);
+<% end %>
+</script>
+<div id="wrapper">
+  <div id="header">
+    <div id="logo">
+      <h1><%= link_to "Search for opportunities", '/' %></h1>
+      <p>take social action</p>
+    </div>
+  </div>
+  <!-- end #header -->
+  <div id="menu">
+    <ul>
+      <li><%= link_to "Search", home_url %></li>
+      <li><%= link_to "About", about_url %></li>
+    </ul>
+  </div>
+  <!-- end #menu -->
+  <div id="page">
+    <div id="content">
+      <div id="loading_animation">
+        <%= image_tag 'ajax-loader.gif' %>
+      </div>
+      <div class="search_results_wrapper"> <!-- wrapper div needed for sliding effect -->
+        <div id="search_results_slider">
+          <div id="search_results">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end #content -->
+    <div id="sidebar">
+      <div class="search_box cleared">
+        <% form_remote_tag(:url => url_for({:controller => 'search', :action => 'search'}), 
+                     :success => 'handle_results(request)', 
+      :loading => 'toggle_search_loading(true)',
+      :failure => 'handle_failure()') do %>
+
+        <input id="pageNumber" type="hidden" name="page" value="1" />
+
+        <div class="criterion_box">
+          <h2>Keywords</h2>
+          <div class="search_box_and_button">
+            <%= text_field_tag 'keywords', params[:keywords], :class => 'search_input' %>
+            <%= submit_tag 'search' %>
+          </div>
+          <ul>
+            <li>
+            <input id="match_all_check" type="radio" name="match_style" value="all" onclick="submit_search()" <%= is_criterion_enabled?('match_style', 'all', 'all') ? 'checked' : '' %> /><label for="match_all_check">match all the words above</label>
+
+            </li>
+            <li>
+            <input id="match_any_check" type="radio" name="match_style" value="any" onclick="submit_search()" <%= is_criterion_enabled?('match_style', 'any', 'all') ? 'checked' : '' %> /><label for="match_any_check">match any of the words above</label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="criterion_box">
+          <h2>Activities</h2>
+          <ul>
+            <% SocialSearch.all_action_types.each do |action_type| %>
+              <% desc = action_type[0] %>
+              <% value = action_type[1] %>
+              <% id = "action_type_#{value}" %>
+              <li>
+              <input type="checkbox" id="<%= id%>" name="<%= id%>" value="<%= value%>" <%= (params[:permsearch].blank? or is_criterion_enabled?(id, value, nil)) ? 'checked' : ''%> onclick="submit_search()"><label for="<%= id%>"><%= desc %></label>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+
+        <div class="criterion_box no_border_bottom">
+          <h2>Days published</h2>
+          <% SocialSearch.all_created_days.each do |number_of_days| %>
+            <% id = "number_of_days_#{number_of_days}" %>
+            <input type="radio" id="<%= number_of_days%>" name="created_days" value="<%= number_of_days%>" onclick="submit_search()"
+            <%= number_of_days == 1 ? 'class="no-margin-left"' : '' %><%= is_criterion_enabled?("created_days", number_of_days, SocialSearch.default_created_days) ? 'checked' : ''%>>
+            <label for="<%= id%>"><%= number_of_days%></label>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <!-- end #sidebar -->
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end #page -->
+<div id="footer">
+  <p>some rights reserved &nbsp;&bull;&nbsp; design by <a href="http://www.freecsstemplates.org/">free css templates</a></p>
+</div>
+<!-- end #footer -->
+</div>
+  </body>
+</html>

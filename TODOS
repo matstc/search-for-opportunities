@@ -1,0 +1,12 @@
+meta keywords
+make sure the layout does not suffer from the html in descriptions (especially when we truncate...)
+is it possible to make back button work?
+use named routes
+clean up URLs
+IE testing
+update the search results without removing those that were already there (prune and add)
+allow for sorting of results
+
+-- 
+would be nice to have location
+would be nice to have pagination in API (ie total number of results)
